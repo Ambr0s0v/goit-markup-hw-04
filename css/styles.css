@@ -83,7 +83,15 @@ img{
     justify-content: space-around;
     align-items: center;
 }
+.icon-smartphone{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16px/14px);
+    letter-spacing: 0.02em;
+    color: #757575;
 
+}
 .header__nav-lists{
     margin-left:93px;
 }
@@ -395,7 +403,7 @@ img{
 }
 
 .clients__link:hover .clients__icon,
-.clients__link:hover .clients__icon{
+.clients__link:focus .clients__icon{
     fill: #2196F3;
 }
 
@@ -540,7 +548,13 @@ img{
     margin-left: 70px;
 }
 
+.footer__flex{
+    display: flex;
+    align-items: baseline;
+}
+
 .footer__social-title{
+    font-family: inherit;
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16px/14px);
